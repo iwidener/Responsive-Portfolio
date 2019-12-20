@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box;
+  }
+ 
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url(../images/circuit.png);
+  background-size: cover;
+}
+
+div.jumbotron {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  padding-bottom: 2%;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+a.footer {
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+  color: white;
+}
+
+/* This is a code for a contact webpage*/
+
+div.jumbotron {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+input#exampleInputName1 {
+
+  box-sizing: content-box;
+  width: 84%;
+  line-height: 60%;
+  padding: 20px 40px;
+}
+
+input#exampleInputEmail1 {
+  
+  box-sizing: content-box;
+  width: 84%;
+  line-height: 60%;
+  padding: 20px 40px;
+}
+
+input#exampleInputMessage1 {
+  box-sizing: content-box;
+  width: 84%;
+  line-height: 60%;
+  padding: 20px 40px;
+}
+
+a.footer {
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+  color: white;
+}
+
+/* This is a code for a portfolio webpage*/
+
+div.container {
+  width: 100%;
+}
+
+div.img-container {
+  max-width: 576px;
+}
+
+a.footer {
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(../images/circuit.png);
+    background-size: cover;
+  }
+ }
